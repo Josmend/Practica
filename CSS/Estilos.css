@@ -1,0 +1,142 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.col-1{
+    width:calc(100% / 12);
+}
+.col-2{
+    width:calc(100% / 6);
+}
+.col-3{
+    width:25%;
+}
+.col-4{
+    width:calc(100% / 3);
+}
+.col-5{
+    width:calc(100% / 12 * 5);
+}
+.col-6{
+    width:50%;
+}
+.col-7{
+    width:calc(100% / 12 * 7);
+}
+.col-8{
+    width:calc(100% / 12 * 8);
+}
+.col-9{
+    width:75%;
+}
+.col-10{
+    width:calc(100% / 12 * 10);
+}
+.col-11{
+    width:calc(100% / 12 * 11);
+}
+.col-12{
+    width:100%;
+    
+}
+
+ .col-16{
+    width:40%;
+    margin: 30px auto;
+    
+} 
+
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin: 0 auto;
+    /*background-color: rgba(45, 41, 41,.5);*/
+    background-color: rgb(194, 206, 255);
+}
+
+form div{
+    padding: 18px;
+}
+
+label, div h5{
+    display: block;
+    color: rgb(15, 2, 2);
+}
+
+input:not([type=checkbox],[type=radio]){
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 5px;
+     border: none;
+    
+    outline: none;
+    border-bottom-width: 2px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 3rem;
+     background-position: 5px 1%;
+      padding-left: 45px; 
+   
+}
+input[type=text] {
+    background-image: url(../imgs/Un.png);
+
+   
+  }
+  input[type=color] {
+    background-image: url(../imgs/co.png);
+   
+  }
+
+
+  input[type="email"] {
+    background-image: url(../imgs/do.png);
+   
+  }
+
+  input[type="password"] {
+ 
+    background-image: url(../imgs/pa.png);
+   
+  }
+
+  input[type="url"] {
+
+    background-image: url(../imgs/url);
+    
+  }
+
+  input[type="tel"] {
+   
+    background-image: url(../imgs/p.png);
+   
+  }
+
+  
+input:not([type=checkbox],[type=radio]):focus{
+    border: 3px solid rgb(248, 163, 51)
+    
+} 
+
+input:not([type=checkbox],[type=radio]):hover{
+    background-color: rgb(247, 220, 147)
+    
+}
+
+
+input[type=submit] {
+    background-color: #eea112;
+    border: none;
+    color: white;
+  }
+
+
+
+
+
+

@@ -1,0 +1,124 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="CSS/Estilos.css">
+      <title>Práctica 2 con HTML.</title>
+  </head>
+  <body>
+    <form action=""> 
+  <div  class="col-12">
+      <label for="txtNombre">Nombre</label>
+      <input type="text" id="txtNombre" required autofocus>
+
+  </div>
+  <br>
+  <div  class="col-12">
+      <label for="emCorreo">Correo</label>
+      <input type="email" id="emCorreo" autocomplete="off">
+
+  </div>
+  <br>
+  <div class="col-6">    
+    <label for="passContrasenia">Contrasenia</label>
+    
+    <input type="password" id="passContrasenia" 
+    minlength="8" maxlength="20" required>
+  </div>
+  <br>
+  <div class="col-6">    
+      <label for="passVerificaContrasenia">Verifica Contrasenia</label>
+      
+      <input type="password" id="passVerificaContrasenia"  
+      minlength="8" maxlength="20" required>
+    </div>
+  <br>
+
+    <div class="col-6">    
+      <label for="urlPagina">URL</label>
+      
+      <input type="url" id="urlPagina" placeholder="Escribe la URL de tu página web personal">
+    </div>
+  <br>
+
+    <div class="col-6">    
+      <label for="datFecha">Fecha de Nacimiento</label>
+      
+      <input type="date" id="datFecha" required>
+    </div>
+
+  <br>
+    <div class="col-6">    
+      <label for="tfTelefono">Telefono</label>
+      
+      <input type="tel" id="tfTelefono" pattern="[0-9]{10}">
+    </div>
+  <br>
+    <div class="col-6">    
+      <label for="clColor">Color Favorito</label>
+      
+      <input type="color" id="clColor">
+    </div>
+
+  <br>
+
+      <fieldset>
+          <div>    
+              <h4>Estado Civil</h4>
+              <br>
+              <label for="rdSoltero">Soltero</label>
+              <input type="radio" name="estadoCivil" id="rdSoltero">
+
+              <label for="rdCasado">Casado</label>
+              <input type="radio" name="estadoCivil" id="rdCasado">
+
+              <label for="rdUnionLibre">Union Libre</label>
+              <input type="radio" name="estadoCivil" id="rdUnionLibre">
+
+              <label for="rdViudo">Viudo</label>
+              <input type="radio" name="estadoCivil" id="rdViudo">
+
+              <label for="rdDivorciado">Divorciado</label>
+              <input type="radio" name="estadoCivil" id="rdDivorciado">
+        
+            </div>
+
+      </fieldset>
+  <br>
+    <div>
+          <h4>Temas de Interes</h4>
+          <br>
+          <label><input type="checkbox" name="Temas" id="Becas"> Becas</label>
+          <br>
+          <label><input type="checkbox"  name="Temas" id="chboxConvocatorias"> Convocatorias de Emprendedores</label>
+          <br>
+          <label><input type="checkbox" name="Temas" id="chboxConcursos"> Concursos académicos</label>
+          <br>
+          <label><input type="checkbox" name="Temas" id="chboxViajes"> Viajes de practicas</label>
+          <br>
+          <label><input type="checkbox" name="Temas" id="chboxConferencias"> Conferencias y congresos</label>
+          <br>
+          <label><input type="checkbox" name="Temas" id="chboxNinguno"> Ninguno</label>
+    </div>
+
+  <hr>
+    <div>
+      <h4><input type="checkbox" name="AceptoTerminos" id="chboxAcepto"> Acepto los terminos y condiciones</h4>
+    </div>
+  <br>
+ <div class="col-16">
+  <input type="submit" value="Enviar">
+</div>
+
+  </form>
+  
+
+
+
+  </body>
+  </html>
+
+
+
+  
